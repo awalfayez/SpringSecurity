@@ -30,7 +30,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 
     //private static Logger log = LoggerFactory.getLogger(HomeController.class);
-    // principal: current logged in user
+    // principal: current logged in user 1
 
     @GetMapping("/")
     public String greeting(Model model, Principal principal) {
